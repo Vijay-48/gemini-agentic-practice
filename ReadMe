@@ -1,29 +1,29 @@
 # 🧠 Gemini Agentic AI Practice Project
 
-This repository is dedicated to my hands-on practice of **building AI agents** using the **Google Gemini API**.
-The goal is to understand **how agentic architectures work** — from tool orchestration to reasoning, task planning, and real-time decision-making — while creating modular, production-ready agent frameworks.
+Welcome to my hands-on project focused on **building agentic AI architectures** using the **Google Gemini API**!
+
+The goal is to **learn, experiment, and document** how agent-based systems work — including tool orchestration, reasoning, planning, and real-time decision-making — while creating modular, production-ready frameworks.
 
 ---
 
 ## 🚀 Project Overview
 
-This project simulates a **multi-agent system** where each agent performs a specific role (e.g., data fetching, decision-making, analysis, or user interaction).
-The system is designed to demonstrate **autonomous reasoning**, **task delegation**, and **tool usage** — the key capabilities of an intelligent agentic ecosystem.
+This repository simulates a **multi-agent system** where each agent plays a specific role (e.g., data fetching, reasoning, analysis, or user interaction).
+The system demonstrates **autonomous reasoning**, **task delegation**, and **tool usage** — key capabilities of an intelligent agentic ecosystem.
 
 ---
 
 ## 🎯 Learning Objectives
 
-* Learn to build **modular AI agents** using the Gemini API
-* Implement **autonomous task planning** and **tool integration**
-* Understand **agent collaboration and communication**
-* Deploy lightweight **multi-agent orchestration pipelines**
-* Experiment with **real-world use cases** like:
-
-  * Data enrichment & decision agents
-  * Research assistants
-  * Financial analysis bots
-  * RAG (Retrieval-Augmented Generation) agents
+- Build **modular AI agents** powered by the Gemini API
+- Implement **autonomous task planning** & **tool integration**
+- Understand **agent collaboration and communication**
+- Deploy simple **multi-agent orchestration pipelines**
+- Experiment with real-world use cases, such as:
+  - Data enrichment & decision agents
+  - Research assistants
+  - Financial analysis bots
+  - RAG (Retrieval-Augmented Generation) agents
 
 ---
 
@@ -40,11 +40,11 @@ gemini-agentic-practice/
 │   ├── analysis_agent.py   # Analyzes data and makes conclusions
 │
 ├── utils/
-│   ├── gemini_client.py    # Handles Gemini API connection and queries
-│   ├── tools.py            # Utility functions or simulated tools for agents
+│   ├── gemini_client.py    # Gemini API connection & queries
+│   ├── tools.py            # Utility functions / simulated tools for agents
 │
 ├── config/
-│   └── settings.py         # API keys, model selection, and environment variables
+│   └── settings.py         # API keys, model selection, environment variables
 │
 └── README.md               # Project documentation
 ```
@@ -53,36 +53,32 @@ gemini-agentic-practice/
 
 ## 🧠 Tech Stack
 
-* **Python 3.10+**
-* **Google Gemini API** (via `google-generativeai` SDK)
-* **LangChain-style architecture** (customized manually)
-* **JSON-based communication between agents**
+- **Python 3.10+**
+- **Google Gemini API** (`google-generativeai` SDK)
+- **LangChain-inspired architecture** (custom, lightweight)
+- **JSON-based agent communication**
 
 ---
 
 ## 🔧 Setup Instructions
 
-1. **Clone this repo:**
-
+1. **Clone the repo:**
    ```bash
    git clone https://github.com/Vijay-48/gemini-agentic-practice.git
    cd gemini-agentic-practice
    ```
 
 2. **Install dependencies:**
-
    ```bash
    pip install -r requirements.txt
    ```
 
 3. **Set up Gemini API key:**
-
    ```bash
    export GEMINI_API_KEY="your_api_key_here"
    ```
 
 4. **Run the project:**
-
    ```bash
    python main.py
    ```
@@ -94,36 +90,36 @@ gemini-agentic-practice/
 Practicing the **core agent lifecycle**:
 
 1. Receive input
-2. Plan and delegate
+2. Plan & delegate tasks
 3. Use tools or APIs
 4. Analyze responses
 5. Return structured output
 
-Each agent communicates through a shared memory structure that evolves dynamically during runtime.
+Agents communicate via a shared, dynamic memory structure.
 
 ---
 
 ## 🧭 Roadmap
 
-* [x] Basic agent structure setup
-* [ ] Add memory module
-* [ ] Implement LangGraph-style workflow
-* [ ] Integrate external APIs (e.g., finance, news, weather)
-* [ ] Enable conversational context chaining
-* [ ] Deploy on a small Streamlit dashboard
+- [x] Basic agent structure setup
+- [ ] Add memory module
+- [ ] Implement LangGraph-style workflow
+- [ ] Integrate external APIs (finance, news, weather)
+- [ ] Enable conversational context chaining
+- [ ] Deploy on a Streamlit dashboard
 
 ---
 
 ## 🤝 Contribution
 
-This is a **personal learning project**, but contributions and suggestions are welcome!
-Feel free to open issues or pull requests if you want to explore advanced agent design ideas.
+This is a **personal learning project**, but suggestions and contributions are welcome!
+Feel free to open issues or pull requests for advanced agent design ideas.
 
 ---
 
 ## 📚 Author
 
-**Vijay Krishna Rachamalla**
-🎓 AI Engineer | Machine Learning & Generative AI Enthusiast
-📧 [nameisvijju001@gmail.com](mailto:nameisvijju001@gmail.com)
+**Vijay Krishna Rachamalla**  
+AI Engineer | Machine Learning & Generative AI Enthusiast  
+📧 [nameisvijju001@gmail.com](mailto:nameisvijju001@gmail.com)  
 🔗 [LinkedIn](https://linkedin.com/in/vijay-krishna-rachamalla) | [GitHub](https://github.com/Vijay-48)
