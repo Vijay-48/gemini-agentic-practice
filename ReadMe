@@ -1,4 +1,4 @@
-# 🧠 Gemini Agentic AI Practice Project
+#🧠 Gemini Agentic AI Practice Project
 
 Welcome to my hands-on project focused on **building agentic AI architectures** using the **Google Gemini API**!
 
@@ -6,14 +6,14 @@ The goal is to **learn, experiment, and document** how agent-based systems work 
 
 ---
 
-## 🚀 Project Overview
+#🚀 Project Overview
 
 This repository simulates a **multi-agent system** where each agent plays a specific role (e.g., data fetching, reasoning, analysis, or user interaction).
 The system demonstrates **autonomous reasoning**, **task delegation**, and **tool usage** — key capabilities of an intelligent agentic ecosystem.
 
 ---
 
-## 🎯 Learning Objectives
+#🎯 Learning Objectives
 
 - Build **modular AI agents** powered by the Gemini API
 - Implement **autonomous task planning** & **tool integration**
@@ -27,9 +27,9 @@ The system demonstrates **autonomous reasoning**, **task delegation**, and **too
 
 ---
 
-## 🧩 Project Structure
+#🧩 Project Structure
 
-```
+`
 gemini-agentic-practice/
 │
 ├── main.py                 # Entry point: initializes and runs the agent system
@@ -47,47 +47,47 @@ gemini-agentic-practice/
 │   └── settings.py         # API keys, model selection, environment variables
 │
 └── README.md               # Project documentation
-```
+`
 
 ---
 
-## 🧠 Tech Stack
+#🧠 Tech Stack
 
-- **Python 3.10+**
-- **Google Gemini API** (`google-generativeai` SDK)
-- **LangChain-inspired architecture** (custom, lightweight)
-- **JSON-based agent communication**
+- *Python 3.10+**
+- *Google Gemini API** (`google-generativeai` SDK)
+- *LangChain-inspired architecture** (custom, lightweight)
+- *JSON-based agent communication**
 
 ---
 
-## 🔧 Setup Instructions
+#🔧 Setup Instructions
 
-1. **Clone the repo:**
-   ```bash
+1. *Clone the repo:*
+   `bash
    git clone https://github.com/Vijay-48/gemini-agentic-practice.git
    cd gemini-agentic-practice
-   ```
+   `
 
-2. **Install dependencies:**
-   ```bash
+2. *Install dependencies:*
+   `bash
    pip install -r requirements.txt
-   ```
+   `
 
-3. **Set up Gemini API key:**
-   ```bash
+3. *Set up Gemini API key:*
+   `bash
    export GEMINI_API_KEY="your_api_key_here"
-   ```
+   `
 
-4. **Run the project:**
-   ```bash
+4. *Run the project:*
+   `bash
    python main.py
-   ```
+   `
 
 ---
 
-## 🧩 Current Focus
+#🧩 Current Focus
 
-Practicing the **core agent lifecycle**:
+Practicing the *core agent lifecycle*:
 
 1. Receive input
 2. Plan & delegate tasks
@@ -99,7 +99,7 @@ Agents communicate via a shared, dynamic memory structure.
 
 ---
 
-## 🧭 Roadmap
+#🧭 Roadmap
 
 - [x] Basic agent structure setup
 - [ ] Add memory module
@@ -110,16 +110,17 @@ Agents communicate via a shared, dynamic memory structure.
 
 ---
 
-## 🤝 Contribution
+#🤝 Contribution
 
-This is a **personal learning project**, but suggestions and contributions are welcome!
+This is a *personal learning project*, but suggestions and contributions are welcome!
 Feel free to open issues or pull requests for advanced agent design ideas.
 
 ---
 
-## 📚 Author
+#📚 Author
 
-**Vijay Krishna Rachamalla**  
+*Vijay Krishna Rachamalla*  
 AI Engineer | Machine Learning & Generative AI Enthusiast  
 📧 [nameisvijju001@gmail.com](mailto:nameisvijju001@gmail.com)  
 🔗 [LinkedIn](https://linkedin.com/in/vijay-krishna-rachamalla) | [GitHub](https://github.com/Vijay-48)
+
